@@ -1,0 +1,1 @@
+var o;o="hello from node",console.log(o);
