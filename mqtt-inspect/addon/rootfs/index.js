@@ -1,1 +1,1 @@
-const{MQTT_HOST:T,MQTT_USER:o,MQTT_PASSWORD:s}=process.env;console.log(T,o,s);
+const{MQTT_HOST:o,MQTT_USER:T,MQTT_PASSWORD:s}=process.env;console.log("starting"),console.log(o,T,s);

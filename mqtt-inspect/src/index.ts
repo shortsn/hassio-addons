@@ -1,6 +1,7 @@
 
 const { MQTT_HOST, MQTT_USER, MQTT_PASSWORD } = process.env
 
+console.log('starting')
 console.log(MQTT_HOST, MQTT_USER, MQTT_PASSWORD)
 
 // const client = connect("tcp://somehost.com:1883");
