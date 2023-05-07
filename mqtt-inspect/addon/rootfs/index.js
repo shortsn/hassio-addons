@@ -1,1 +1,1 @@
-var o;o="hello from node",console.log(o);
+const{MQTT_HOST:T,MQTT_USER:o,MQTT_PASSWORD:s}=process.env;console.log(T,o,s);

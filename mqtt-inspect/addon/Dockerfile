@@ -12,4 +12,7 @@ COPY rootfs /
 # https://scoutapm.com/blog/how-to-use-docker-healthcheck
 # HEALTHCHECK CMD curl --fail http://localhost:3000 || exit 1
 
-CMD [ "node", "index.js"]
+COPY run.sh /
+RUN chmod a+x /run.sh
+
+CMD [ "/run.sh" ]
