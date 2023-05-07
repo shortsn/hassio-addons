@@ -4,8 +4,6 @@ url: https://github.com/shortsn/hassio-addons/tree/main/mqtt-inspect
 version: "dev"
 slug: "mqtt_inspect"
 startup: application
-discovery:
-  - mqtt
 services:
   - mqtt:need
 init: false

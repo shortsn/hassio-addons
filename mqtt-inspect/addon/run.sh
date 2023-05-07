@@ -1,7 +1,7 @@
 #!/usr/bin/env bashio
 
-export MQTT_HOST=$(bashio::config "mqtt.server")
-export MQTT_USER=$(bashio::config 'mqtt.user')
-export MQTT_PASSWORD=$(bashio::config 'mqtt.password')
+export MQTT_HOST=$(bashio::services mqtt "host")
+export MQTT_USER=$(bashio::services mqtt "username")
+export MQTT_PASSWORD=$(bashio::services mqtt "password")
 
 exec node index.js
