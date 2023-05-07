@@ -12,3 +12,8 @@ arch:
   - amd64
   - armhf
   - armv7
+schema:
+  mqtt_host: "str?"
+  mqtt_port: "int?"
+  mqtt_user: "str?"
+  mqtt_password: "str?"

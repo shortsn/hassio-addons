@@ -12,7 +12,8 @@
     "default": {
       "context": "node",
       "isLibrary": true,
-      "optimize": true
+      "optimize": true,
+      "includeNodeModules": true
     }
   },
   "engines": {
